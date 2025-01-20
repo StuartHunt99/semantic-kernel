@@ -43,7 +43,7 @@ public class AzureOpenAIWithData_ChatCompletion(ITestOutputHelper output) : Base
         var chatHistory = new ChatHistory();
 
         // First question without previous context based on uploaded content.
-        var ask = "How did Emily and David meet?";
+        var ask = "If a record ends with Robust, what ?";
         chatHistory.AddUserMessage(ask);
 
         // Chat Completion example
